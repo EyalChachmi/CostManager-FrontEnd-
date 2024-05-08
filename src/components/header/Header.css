@@ -1,0 +1,23 @@
+/* Authors:
+* Eyal Chachmishvily 209786094
+* Idan Eliyahu 204174155
+* Nadav Bitran Numa 325122075
+*/
+
+/* Styling for the header */
+header {
+    /* Set background color for the header */
+    background-color: #cdf5fd;   
+    /* Full width of the viewport */
+    width: 100%;
+    /* Add padding on the left and right of the header */                  
+    padding-inline: 1rem;     
+    /* Add margin on top of the header */ 
+    margin-top: .25rem;         
+}
+
+/* Styling for the application title within the header */
+.appTitle {
+    /* Center-align the text within the header */
+    text-align: center; 
+}
