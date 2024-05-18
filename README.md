@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+Description:
+Developed a Calorie Management Client Application as the final project in Front-End Development, utilizing ReactJS for the user interface. The application is designed to help users track their daily calorie intake and generate detailed monthly reports.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features:
 
-## Available Scripts
+Calorie Tracking: Users can add new calorie consumption items, specifying the number of calories, category (BREAKFAST, LUNCH, DINNER, OTHER), and a description.
+Monthly Reports: Users can generate detailed reports for any specific month and year, providing insights into their calorie consumption patterns.
+Technical Implementation:
 
-In the project directory, you can run:
+Database: Implemented client-side data storage using IndexedDB, facilitated by a custom library (idb.js). This library manages database operations through asynchronous functions that return Promise objects, ensuring smooth and efficient data handling.
+User Interface: The UI was developed using ReactJS, providing a responsive and dynamic user experience. The design adheres to modern web standards, ensuring usability and accessibility.
+Key Responsibilities:
 
-### `npm start`
+Developed and integrated the IndexedDB library for robust client-side data storage.
+Implemented ReactJS components to create an intuitive and interactive user interface.
+Ensured the application met all project requirements, including detailed monthly reporting and real-time calorie tracking.
+Technologies Used:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ReactJS: For building the user interface.
+IndexedDB: For client-side data storage, managed through a custom library.
+JavaScript (ES6+): For asynchronous programming and overall application logic.
